@@ -10,5 +10,64 @@
     <h1> I like working on web pages but Data analytical makes more since</h1>
     
     <p> I am trying to learn how to make pages</p>
+
+    <style>
+         <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
+            position: relative;
+            transform-style: preserve-3d;
+            transform: rotateX(-30deg) rotateY(30deg);
+            animation: rotate 5s infinite linear;
+        }
+
+        .box::before, .box::after {
+            content: '';
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.1);
+        
+        }
+
+.box::before {
+    transform: rotateX(90deg) translateZ(50px);
+}
+
+.box::after {
+    transform: rotateY(90deg) translateZ(50px);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(-30deg) rotateY(30deg);
+    }
+    to {
+        transform: rotateX(-30deg) rotateY(390deg);
+    }
+    }
+    </style>
+    </head>
+
+
+</body>
+</html>
+    
+    
+    
+    
+    
+        }
+
+
+
+
+
+
+
+    </style>
+
 </body>
 </html>
