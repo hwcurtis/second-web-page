@@ -3,22 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Second Web attempt</title>
-    <link rel="stylesheet" href="css//style.css>"
-
-
-    <h1> I like working on web pages but Data analytical makes more since</h1>
+    <title>Playing with dimensional </title>
     
-    <p> I am trying to learn how to make pages</p>
-
-
-
+    
     <style>
-         
         .box {
-            width: 150px;
-            height: 1500px;
-            background-color: purple
+            width: 100px;
+            height: 100px;
+            background-color: #4CAF50;
             position: relative;
             transform-style: preserve-3d;
             transform: rotateX(-30deg) rotateY(30deg);
@@ -26,33 +18,40 @@
         }
 
         .box::before, .box::after {
-            content: 'BOOK';
+            content: '';
             position: absolute;
-            width: 150px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             background-color: rgba(0, 0, 0, 0.1);
-        
         }
 
-.box::before {
-    transform: rotateX(90deg) translateZ(50px);
-}
+        .box::before {
+            transform: rotateX(90deg) translateZ(50px);
+        }
 
-.box::after {
-    transform: rotateY(90deg) translateZ(50px);
-}
+        .box::after {
+            transform: rotateY(90deg) translateZ(50px);
+        }
 
-@keyframes rotate {
-    from {
-        transform: rotateX(-30deg) rotateY(30deg);
-    }
-    to {
-        transform: rotateX(-30deg) rotateY(390deg);
-    }
-} 
+        @keyframes rotate {
+            from {
+                transform: rotateX(-30deg) rotateY(30deg);
+            }
+            to {
+                transform: rotateX(-30deg) rotateY(390deg);
+            }
+        }
     </style>
+
+    
+
     </head>
 <body>
+    <p style="color: blue;">I ve been trying to learn about 3 d programming.</p>
+    <p style="color:blueviolet; "and How to change colors on web pages
+
+
+
     <div class= "box" ></div>
 
 
