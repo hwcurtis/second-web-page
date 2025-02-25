@@ -11,12 +11,14 @@
     
     <p> I am trying to learn how to make pages</p>
 
+
+
     <style>
          
         .box {
-            width: 100px;
-            height: 100px;
-            background-color: #4CAF50;
+            width: 150px;
+            height: 1500px;
+            background-color: purple
             position: relative;
             transform-style: preserve-3d;
             transform: rotateX(-30deg) rotateY(30deg);
@@ -24,10 +26,10 @@
         }
 
         .box::before, .box::after {
-            content: '';
+            content: 'BOOK';
             position: absolute;
-            width: 100px;
-            height: 100px;
+            width: 150px;
+            height: 150px;
             background-color: rgba(0, 0, 0, 0.1);
         
         }
@@ -51,7 +53,7 @@
     </style>
     </head>
 <body>
-    <div>class= box </div>
+    <div class= "box" ></div>
 
 
 </body>
